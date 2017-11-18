@@ -6,7 +6,7 @@ class App extends Component {
 
   render() {
     return (
-      <h1>Hello world</h1>
+      <h1>Hello World</h1>
     );
   }
 }
@@ -16,8 +16,10 @@ class LoginForm extends Component {
   render() {
     return (
       <form>
-        <input type="text"/>email
-        <input type="text"/>password
+        <label>Email</label>
+        <input type="text"/>
+        <label>Password</label>
+        <input type="text"/>
         <input type="submit" value="Sign in"/>
       </form>
     );
@@ -26,3 +28,4 @@ class LoginForm extends Component {
 }
 
 export default App;
+export {LoginForm};
